@@ -58,10 +58,10 @@ hr {
 }
 
 .container {
-	padding: 0;
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1000px;
+	display: grid; /* Set the container to use Grid layout */
+    grid-gap: 20px; /* Space between grid items */
+    grid-template-columns: 1fr 3fr; /* Create a 2-column layout: 1fr (sidebar) and 3fr (main content) */
+    padding: 20px;
 }
 
 .header {
